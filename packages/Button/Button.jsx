@@ -23,7 +23,7 @@ const Button = ({ type, variant, children, ...rest }) => {
 
   return (
     <BaseButton {...safeRest(restNoDisabled)} element="button" variant={variant} type={type}>
-      {children}
+      Test{children}
     </BaseButton>
   )
 }
